@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <!-- Horizon Artificiel -->
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> -12.480 </x-m>
+      <y-m>  -0.492 </y-m>
+      <z-m>   3.862 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> -12.480 </x-m>
+      <y-m>   0.492 </y-m>
+      <z-m>   3.862 </z-m>
+    </offsets>
+  </model>
+ 
+  <!-- Altitude -->
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> -12.483 </x-m>
+      <y-m>  -0.379 </y-m>
+      <z-m>   3.853 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> -12.483 </x-m>
+      <y-m>   0.379 </y-m>
+      <z-m>   3.853 </z-m>
+    </offsets>
+  </model>
+ 
+  <!-- VOR -->
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/vor/vor.xml</path>
+    <offsets>
+      <x-m> -12.490 </x-m>
+      <y-m>  -0.269 </y-m>
+      <z-m>   3.853 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/vor/vor.xml</path>
+    <offsets>
+      <x-m> -12.490 </x-m>
+      <y-m>   0.269 </y-m>
+      <z-m>   3.853 </z-m>
+    </offsets>
+  </model>
+ 
+  <!-- HSI -->
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/hsi/hsi.xml</path>
+    <offsets>
+      <x-m> -12.489 </x-m>
+      <y-m>  -0.491 </y-m>
+      <z-m>   3.739 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/hsi/hsi.xml</path>
+    <offsets>
+      <x-m> -12.489 </x-m>
+      <y-m>   0.491 </y-m>
+      <z-m>   3.739 </z-m>
+    </offsets>
+  </model>
+ 
+  <!-- AIRSPEED -->
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> -12.496 </x-m>
+      <y-m>  -0.601 </y-m>
+      <z-m>   3.852 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> -12.496 </x-m>
+      <y-m>   0.601 </y-m>
+      <z-m>   3.852 </z-m>
+    </offsets>
+  </model>
+ 
+  <!-- GMETER -->
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/gmeter/gmeter.xml</path>
+    <offsets>
+      <x-m> -12.486 </x-m>
+      <y-m>  -0.377 </y-m>
+      <z-m>   3.745 </z-m>
+    </offsets>
+  </model>
+
+  <!-- FLAPS -->
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/flaps/flaps.xml</path>
+    <offsets>
+      <x-m> -12.493 </x-m>
+      <y-m>  -0.272 </y-m>
+      <z-m>   3.641 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/flaps/flaps.xml</path>
+    <offsets>
+      <x-m> -12.493 </x-m>
+      <y-m>   0.272 </y-m>
+      <z-m>   3.641 </z-m>
+    </offsets>
+  </model>
+
+  <!-- COMPASS MDI WITH HDG -->
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/compass_mdi/compass_mdi_with_hdg.xml</path>
+    <offsets>
+      <x-m> -12.488 </x-m>
+      <y-m>  -0.273 </y-m>
+      <z-m>   3.750 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/compass_mdi/compass_mdi_with_hdg.xml</path>
+    <offsets>
+      <x-m> -12.488 </x-m>
+      <y-m>   0.273 </y-m>
+      <z-m>   3.750 </z-m>
+    </offsets>
+  </model>
+
+  <!-- AIRTEMP -->
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/airtemp/airtemp.xml</path>
+    <offsets>
+      <x-m> -12.487 </x-m>
+      <y-m>  -0.380 </y-m>
+      <z-m>   3.639 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/airtemp/airtemp.xml</path>
+    <offsets>
+      <x-m> -12.487 </x-m>
+      <y-m>   0.380 </y-m>
+      <z-m>   3.639 </z-m>
+    </offsets>
+  </model>
+
+  <!-- TURN BANK -->
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/turn_bank/turn_bank.xml</path>
+    <offsets>
+      <x-m> -12.488 </x-m>
+      <y-m>   0.380 </y-m>
+      <z-m>   3.750 </z-m>
+    </offsets>
+  </model>
+
+  <!-- AIB -->
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/aib/ai.xml</path>
+    <offsets>
+      <x-m> -12.484 </x-m>
+      <y-m>  -0.163 </y-m>
+      <z-m>   3.637 </z-m>
+    </offsets>
+  </model>
+
+  <!-- EMPTY -->
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/Empty/empty.xml</path>
+    <offsets>
+      <x-m> -12.488 </x-m>
+      <y-m>  -0.114 </y-m>
+      <z-m>   3.866 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/Empty/empty.xml</path>
+    <offsets>
+      <x-m> -12.488 </x-m>
+      <y-m>  -0.038 </y-m>
+      <z-m>   3.866 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/Empty/empty.xml</path>
+    <offsets>
+      <x-m> -12.488 </x-m>
+      <y-m>   0.038 </y-m>
+      <z-m>   3.866 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/Empty/empty.xml</path>
+    <offsets>
+      <x-m> -12.488 </x-m>
+      <y-m>   0.114 </y-m>
+      <z-m>   3.866 </z-m>
+    </offsets>
+  </model>
+
+  <!-- EMPTY2 -->
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/Empty2/empty.xml</path>
+    <offsets>
+      <x-m> -12.488 </x-m>
+      <y-m>  -0.114 </y-m>
+      <z-m>   3.803 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/Empty2/empty.xml</path>
+    <offsets>
+      <x-m> -12.488 </x-m>
+      <y-m>  -0.038 </y-m>
+      <z-m>   3.803 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/Empty2/empty.xml</path>
+    <offsets>
+      <x-m> -12.488 </x-m>
+      <y-m>   0.038 </y-m>
+      <z-m>   3.803 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/Empty2/empty.xml</path>
+    <offsets>
+      <x-m> -12.488 </x-m>
+      <y-m>   0.114 </y-m>
+      <z-m>   3.803 </z-m>
+    </offsets>
+  </model>
+
+  <!-- TACHIMETER -->
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/tachimeter/tachimeter1.xml</path>
+    <offsets>
+      <x-m> -12.488 </x-m>
+      <y-m>  -0.114 </y-m>
+      <z-m>   3.739 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/tachimeter/tachimeter2.xml</path>
+    <offsets>
+      <x-m> -12.488 </x-m>
+      <y-m>  -0.038 </y-m>
+      <z-m>   3.739 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/tachimeter/tachimeter3.xml</path>
+    <offsets>
+      <x-m> -12.488 </x-m>
+      <y-m>   0.038 </y-m>
+      <z-m>   3.739 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/tachimeter/tachimeter4.xml</path>
+    <offsets>
+      <x-m> -12.488 </x-m>
+      <y-m>   0.114 </y-m>
+      <z-m>   3.739 </z-m>
+    </offsets>
+  </model>
+
+  <!-- MONITOR -->
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/Instruments/monitor/monitor.xml</path>
+    <offsets>
+      <x-m> -12.505 </x-m>
+      <y-m>  -0.005 </y-m>
+      <z-m>   3.595 </z-m>
+      <roll-deg>      0 </roll-deg>
+      <pitch-deg>    -8 </pitch-deg>
+      <heading-deg>   0 </heading-deg>
+    </offsets>
+  </model>
+
+</PropertyList>
+

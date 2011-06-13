@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<!-- superguppySGT . -->
+
+<PropertyList include="superguppySGT-base.xml">
+
+  <sim>
+
+    <description>NASAsuperguppySGT (YASim)</description>
+    <flight-model>yasim</flight-model>
+<!--    <aero>flying-superguppySGT-yasim</aero> -->
+    <aero>superguppySGT-yasim</aero>
+
+  </sim>
+
+</PropertyList>
+

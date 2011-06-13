@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>panel.ac</path>
+
+  <animation>
+    <object-name>intcargo1</object-name>
+    <object-name>panelfirst</object-name>
+    <object-name>pla</object-name>
+    <object-name>obj73</object-name>
+    <object-name>lamp2</object-name>
+    <object-name>lampRed</object-name>
+    <object-name>halogene</object-name>
+    <object-name>seat1</object-name>
+    <object-name>seat2</object-name>
+    <object-name>engseat</object-name>
+    <object-name>seatsAR2</object-name>
+    <object-name>seatsAR1</object-name>
+    <object-name>table</object-name>
+    <object-name>objDipl</object-name>
+    <object-name>inc2</object-name>
+    <object-name>inc1</object-name>
+    <object-name>engineerpl</object-name>
+    <object-name>paneling</object-name>
+    <object-name>Sidep</object-name>
+    <object-name>nosewheel-steering</object-name>
+    <object-name>CubeP</object-name>
+    <object-name>Circle</object-name>
+    <object-name>barre</object-name>
+    <object-name>ObM</object-name>
+    <object-name>But1</object-name>
+    <object-name>But2</object-name>
+    <object-name>But3</object-name>
+
+    <object-name>manette</object-name>
+    <object-name>manette2</object-name>
+    <object-name>moteur1</object-name>
+    <object-name>moteur2</object-name>
+    <object-name>moteur3</object-name>
+    <object-name>moteur4</object-name>
+    <object-name>helice1</object-name>
+    <object-name>helice2</object-name>
+    <object-name>helice3</object-name>
+    <object-name>helice4</object-name>
+
+    <object-name>YokedroiteCol</object-name>
+    <object-name>YokegaucheCol</object-name>
+    <object-name>Yokegauche</object-name>
+    <object-name>Yokedroite</object-name>
+
+    <object-name>halogenetrs</object-name>
+  </animation>
+
+  <!-- Tout les instruments -->
+  <model>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/instruments.xml</path>
+    <offsets>
+      <x-m> 0 </x-m>
+      <y-m> 0 </y-m>
+      <z-m> 0 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- YOKES -->
+  <animation>
+    <type>rotate</type>
+    <object-name>YokegaucheCol</object-name>
+    <object-name>Yokegauche</object-name>
+    <property>controls/flight/elevator</property>
+    <factor> -3 </factor>
+    <center>
+      <x-m> -12.200 </x-m>
+      <y-m>   0.000 </y-m>
+      <z-m>   2.920 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>Yokegauche</object-name>
+    <property>controls/flight/aileron</property>
+    <factor> -60 </factor>
+    <center>
+      <x-m> -12.200 </x-m>
+      <y-m>  -0.527 </y-m>
+      <z-m>   3.746 </z-m>
+    </center>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>YokedroiteCol</object-name>
+    <object-name>Yokedroite</object-name>
+    <property>controls/flight/elevator</property>
+    <factor>-3</factor>
+    <center>
+     <x-m> -12.200 </x-m>
+     <y-m>   0.000 </y-m>
+     <z-m>   2.920 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>Yokedroite</object-name>
+    <property>controls/flight/aileron</property>
+    <factor> -60 </factor>
+    <center>
+      <x-m> -12.200 </x-m>
+      <y-m>   0.527 </y-m>
+      <z-m>   3.746 </z-m>
+    </center>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <!-- Manette moteur N°1 -->
+  <animation>
+    <type>rotate</type>
+    <object-name>moteur1</object-name>
+    <property>/controls/engines/engine[0]/throttle</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep>   0 </dep></entry>
+      <entry><ind> 1 </ind><dep> -99 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -12.229 </x-m>
+      <y-m>  -0.047 </y-m>
+      <z-m>   3.293 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <!-- Manette moteur N°2 -->
+  <animation>
+    <type>rotate</type>
+    <object-name>moteur2</object-name>
+    <property>/controls/engines/engine[1]/throttle</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep>   0 </dep></entry>
+      <entry><ind> 1 </ind><dep> -99 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -12.229 </x-m>
+      <y-m>  -0.031 </y-m>
+      <z-m>   3.293 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+ 
+  <!-- Manette moteur N°3 -->
+  <animation>
+    <type>rotate</type>
+    <object-name>moteur3</object-name>
+    <property>/controls/engines/engine[2]/throttle</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep>   0 </dep></entry>
+      <entry><ind> 1 </ind><dep> -99 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -12.229 </x-m>
+      <y-m>   0.007 </y-m>
+      <z-m>   3.293 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+ 
+  <!-- Manette moteur N°4 -->
+  <animation>
+    <type>rotate</type>
+    <object-name>moteur4</object-name>
+    <property>/controls/engines/engine[3]/throttle</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep>   0 </dep></entry>
+      <entry><ind> 1 </ind><dep> -99 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -12.229 </x-m>
+      <y-m>   0.022 </y-m>
+      <z-m>   3.293 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <!-- Manette pas variable hélice N°1 -->
+  <animation>
+    <type>rotate</type>
+    <object-name>helice1</object-name>
+    <property>/controls/engines/engine[0]/propeller-pitch</property>
+    <interpolation>
+      <entry><ind> 1 </ind><dep> -91 </dep></entry>
+      <entry><ind> 0 </ind><dep>   0 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -11.397 </x-m>
+      <y-m>   0.105 </y-m>
+      <z-m>   3.392 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <!-- Manette pas variable hélice N°2 -->
+  <animation>
+    <type>rotate</type>
+    <object-name>helice2</object-name>
+    <property>/controls/engines/engine[1]/propeller-pitch</property>
+    <interpolation>
+      <entry><ind> 1 </ind><dep> -91 </dep></entry>
+      <entry><ind> 0 </ind><dep>   0 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -11.397 </x-m>
+      <y-m>   0.134 </y-m>
+      <z-m>   3.392 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+ 
+  <!-- Manette pas variable hélice N°3 -->
+  <animation>
+    <type>rotate</type>
+    <object-name>helice3</object-name>
+    <property>/controls/engines/engine[2]/propeller-pitch</property>
+    <interpolation>
+      <entry><ind> 1 </ind><dep> -91 </dep></entry>
+      <entry><ind> 0 </ind><dep>   0 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -11.397 </x-m>
+      <y-m>   0.162 </y-m>
+      <z-m>   3.392 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+ 
+  <!-- Manette pas variable hélice N°4 -->
+  <animation>
+    <type>rotate</type>
+    <object-name>helice4</object-name>
+    <property>/controls/engines/engine[3]/propeller-pitch</property>
+    <interpolation>
+      <entry><ind> 1 </ind><dep> -91 </dep></entry>
+      <entry><ind> 0 </ind><dep>   0 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -11.397 </x-m>
+      <y-m>  0.191 </y-m>
+      <z-m>  3.392 </z-m>
+    </center> 
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+   
+  <!-- disparition d'objects animés -->  
+  <animation>
+		<type>select</type>
+		<object-name>helice1</object-name>
+    	<condition>
+			<less-than>
+   			<property>instrumentation/doors/passenger/position-norm</property>
+   			<value>0.20</value>
+			</less-than>
+   	</condition>
+  </animation>
+   
+  <animation>
+		<type>select</type>
+		<object-name>helice2</object-name>
+    	<condition>
+			<less-than>
+   			<property>instrumentation/doors/passenger/position-norm</property>
+   			<value>0.20</value>
+			</less-than>
+   	</condition>
+  </animation>
+   
+  <animation>
+		<type>select</type>
+		<object-name>helice3</object-name>
+    	<condition>
+			<less-than>
+   			<property>instrumentation/doors/passenger/position-norm</property>
+   			<value>0.20</value>
+			</less-than>
+   	</condition>
+  </animation>
+   
+  <animation>
+		<type>select</type>
+		<object-name>helice4</object-name>
+    	<condition>
+			<less-than>
+   			<property>instrumentation/doors/passenger/position-norm</property>
+   			<value>0.20</value>
+			</less-than>
+   	</condition>
+  </animation>
+   
+  <animation>
+		<type>select</type>
+		<object-name>moteur1</object-name>
+    	<condition>
+			<less-than>
+   			<property>instrumentation/doors/passenger/position-norm</property>
+   			<value>0.20</value>
+			</less-than>
+   	</condition>
+  </animation>
+   
+  <animation>
+		<type>select</type>
+		<object-name>moteur2</object-name>
+    	<condition>
+			<less-than>
+   			<property>instrumentation/doors/passenger/position-norm</property>
+   			<value>0.20</value>
+			</less-than>
+   	</condition>
+  </animation>
+   
+  <animation>
+		<type>select</type>
+		<object-name>moteur3</object-name>
+    	<condition>
+			<less-than>
+   			<property>instrumentation/doors/passenger/position-norm</property>
+   			<value>0.20</value>
+			</less-than>
+   	</condition>
+  </animation>
+   
+  <animation>
+		<type>select</type>
+		<object-name>moteur4</object-name>
+    	<condition>
+			<less-than>
+   			<property>instrumentation/doors/passenger/position-norm</property>
+   			<value>0.20</value>
+			</less-than>
+   	</condition>
+  </animation>
+   
+  <animation>
+		<type>select</type>
+		<object-name>YokegaucheCol</object-name>
+    	<condition>
+			<less-than>
+   			<property>instrumentation/doors/passenger/position-norm</property>
+   			<value>0.20</value>
+			</less-than>
+   	</condition>
+  </animation>
+   
+  <animation>
+		<type>select</type>
+		<object-name>Yokegauche</object-name>
+    	<condition>
+			<less-than>
+    		<property>instrumentation/doors/passenger/position-norm</property>
+    		<value>0.20</value>
+			</less-than>
+    </condition>
+  </animation>
+   
+  <animation>
+		<type>select</type>
+		<object-name>YokedroiteCol</object-name>
+    	<condition>
+			<less-than>
+    		<property>instrumentation/doors/passenger/position-norm</property>
+    	  <value>0.20</value>
+		  </less-than>
+   	</condition>
+  </animation>
+   
+  <animation>
+		<type>select</type>
+		<object-name>Yokedroite</object-name>
+    	<condition>
+			<less-than>
+    		<property>instrumentation/doors/passenger/position-norm</property>
+    	  <value>0.20</value>
+		  </less-than>
+    </condition>
+  </animation>
+   
+</PropertyList>
+
