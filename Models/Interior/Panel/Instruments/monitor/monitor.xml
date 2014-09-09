@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>monitor.ac</path>
+
+  <animation>
+    <object-name>fond</object-name>
+    <object-name>ecran</object-name>
+    <object-name>boutons</object-name>
+    <object-name>knobL</object-name>
+    <object-name>knobR</object-name>
+    <object-name>infos</object-name>
+  </animation>
+
+</PropertyList>
+

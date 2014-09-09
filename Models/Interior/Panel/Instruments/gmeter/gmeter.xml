@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>gmeter.ac</path>
+
+  <animation>
+    <object-name>fond</object-name>
+    <object-name>face</object-name>
+    <object-name>needle</object-name>
+
+    <object-name>vitre</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <object-name>vitre</object-name>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>face</object-name>
+    <object-name>needle</object-name>
+    <emission>
+      <red>   0.50 </red>
+      <green> 0.25 </green>
+      <blue>  0.25 </blue>
+      <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+      <factor-prop>/sim/model//material/instruments/factor</factor-prop>
+    </emission>
+  </animation>
+ 
+  <animation>
+    <type>rotate</type>
+    <object-name>needle</object-name>
+    <property>accelerations/pilot-g</property>
+    <interpolation>
+      <entry><ind> -4 </ind><dep> -200.0 </dep></entry>
+      <entry><ind> -2 </ind><dep> -156.0 </dep></entry>
+      <entry><ind> -1 </ind><dep> -134.0 </dep></entry>
+      <entry><ind>  0 </ind><dep> -112.0 </dep></entry>
+      <entry><ind>  1 </ind><dep>  -90.0 </dep></entry>
+      <entry><ind>  2 </ind><dep>  -68.0 </dep></entry>
+      <entry><ind>  3 </ind><dep>  -46.0 </dep></entry>
+      <entry><ind>  4 </ind><dep>  -24.0 </dep></entry>
+      <entry><ind>  5 </ind><dep>   -2.0 </dep></entry>
+      <entry><ind>  6 </ind><dep>   20.0 </dep></entry>
+      <entry><ind>  8 </ind><dep>   64.0 </dep></entry>
+      <entry><ind>  9 </ind><dep>   86.0 </dep></entry>
+      <entry><ind> 10 </ind><dep>  107.5 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> 0 </x-m>
+      <y-m> 0 </y-m>
+      <z-m> 0 </z-m>
+    </center> 
+    <axis>
+      <x> -1 </x>
+      <y>  0 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+</PropertyList>

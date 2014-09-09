@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<!-- <PropertyList include="superguppySGT-jsbsim-cnf.xml"> -->
+<PropertyList include="superguppySGT-yasim-cnf.xml">
+
+  <sim>
+    <description>NASAsuperguppySGT</description>
+    <author>Pierre Duval</author>
+  </sim>
+  
+</PropertyList>
+

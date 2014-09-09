@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>interior.ac</path>
+
+  <animation>
+    <object-name>intcargo1</object-name>
+    <object-name>intcargo2</object-name>
+    <object-name>intcargo3</object-name>
+    <object-name>planchet</object-name>
+    <object-name>cloison</object-name>
+    <object-name>cabin-door</object-name>
+    <object-name>intcargocotes</object-name>
+    <object-name>cloisoncote</object-name>
+    <object-name>EmergencyExit</object-name>
+    <object-name>Escape</object-name>
+    <object-name>jonction</object-name>
+    <object-name>intsol</object-name>
+    <object-name>intcrewdoor1</object-name>
+    <object-name>intcrewdoor2</object-name>
+    <object-name>intfuselage</object-name>
+    <object-name>ntbase</object-name>
+  </animation>
+
+  <!-- Cabine --> 
+  <model>
+    <name>IntCabine</name>
+    <path>Aircraft/superguppySGT/Models/Interior/Panel/panel.xml</path>
+    <offsets>
+      <x-m> 0 </x-m>
+      <y-m> 0 </y-m>
+      <z-m> 0 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Pilote
+  <model>
+    <name>Pilote</name>
+    <path>Aircraft/superguppySGT/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> -11.928 </x-m>
+      <y-m>  -0.540 </y-m>
+      <z-m>   3.638 </z-m>
+    </offsets>
+  </model> --> 
+  
+  <animation>
+    <name>IntNozeTotal</name>
+    <object-name>IntCabine</object-name>
+    <object-name>IntPanel</object-name>
+    <object-name>intcargo1</object-name>
+    <object-name>intcargo2</object-name>
+    <object-name>intcargo3</object-name>
+    <object-name>planchet</object-name>
+    <object-name>jonction</object-name>
+    <object-name>cloison</object-name>
+    <object-name>cabin-door</object-name>
+    <object-name>intcargocotes</object-name>
+    <object-name>cloisoncote</object-name>
+    <object-name>EmergencyExit</object-name>
+    <object-name>Escape</object-name>
+<!--
+    <object-name>Pilote</object-name>
+-->
+  </animation>
+
+  <!-- Nose openinng -->
+  <animation>
+    <type>rotate</type>
+    <object-name>IntNozeTotal</object-name>
+    <property>instrumentation/doors/passenger/position-norm</property>
+    <interpolation>
+		  <entry><ind> 0.00 </ind><dep>  0 </dep></entry>
+		  <entry><ind> 0.20 </ind><dep>  0 </dep></entry>
+		  <entry><ind> 0.90 </ind><dep> 90 </dep></entry>
+	  </interpolation>
+    <center>
+      <x-m> -6.030 </x-m>
+      <y-m> -4.025 </y-m>
+      <z-m>  6.049 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+  
+  <!-- Portes équipage avant et arriére -->
+  <animation>
+    <type>rotate</type>
+    <object-name>intcrewdoor1</object-name>
+    <property>instrumentation/doors/crew/position-norm</property>
+    <interpolation>
+		  <entry><ind> 0.0 </ind><dep>   0.00 </dep></entry>
+		  <entry><ind> 0.1 </ind><dep>   0.00 </dep></entry>
+		  <entry><ind> 0.8 </ind><dep> -78.87 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -4.769 </x-m>
+      <y-m>  0.416 </y-m>
+      <z-m>  0.507 </z-m>
+    </center>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>intcrewdoor2</object-name>
+    <property>instrumentation/doors/crew/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep>   0.00 </dep></entry>
+ 	    <entry><ind> 0.1 </ind><dep>   0.00 </dep></entry>
+ 	    <entry><ind> 0.8 </ind><dep> -76.52 </dep></entry>
+	  </interpolation>
+    <center>
+      <x-m> 10.102 </x-m>
+      <y-m>  0.388 </y-m>
+      <z-m>  0.478 </z-m>
+    </center>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+</PropertyList>
+

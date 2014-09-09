@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim include="Nasal/views.xml">
+
+    <status>Alpha</status>
+    <aircraft-version>0.1</aircraft-version>
+
+    <startup>
+      <splash-texture>Aircraft/superguppySGT/superguppySGT-splash.png</splash-texture>
+    </startup>
+
+    <sound>
+      <audible>true</audible>
+      <path>Aircraft/superguppySGT/Sounds/superguppySGT-sound.xml</path>
+    </sound>
+	
+    <model>
+      <path>Aircraft/superguppySGT/Models/superguppySGT.xml</path>
+	    <start-idling type="bool">0</start-idling>
+    </model>
+
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic> 
+        <int type="int" n="0">  0 </int>                                      <!-- 0 immat -->
+        <int type="int" n="1">  0 </int>                                      <!-- 1 immat -->
+        <int type="int" n="2">  0 </int>                                      <!-- 2 immat -->
+        <int type="int" n="3">  0 </int>                                      <!-- 3 immat -->
+        <int type="int" n="4">  0 </int>                                      <!-- 4 immat -->
+        <int type="int" n="5">  0 </int>                                      <!-- 5 immat -->
+        <int type="bool" n="6"> 0 </int>                                      <!-- 6 smoke -->
+        <int type="int" n="7">  0 </int>                                      <!-- 7 color -->
+        <int n="8" alias="/systems/electrical/outputs/nav-lights">  0 </int>  <!-- 8 nav-lights -->
+        <int n="9" alias="/sim/model/lights/beacon/state">  false </int>      <!-- 9 strobe-lights -->
+        <int n="10" alias="/controls/electric/key-pos">  0 </int>             <!-- 10 key position -->
+        <float n="2" alias="/position/gear-agl-m">  0 </float>                <!-- 11 altitude for MP shadow -->
+        <float n="0" alias="/instrumentation/doors/crew/position-norm"/>
+        <float n="1" alias="/instrumentation/doors/passenger/position-norm"/>
+      </generic>
+    </multiplay>
+
+    <help>
+      <key>
+        <name>D</name>
+        <desc>Open/Close Nose</desc>
+      </key>
+      <key>
+        <name>d</name>
+        <desc>Open/Close crew doors</desc>
+      </key>
+    </help>
+
+    <menubar include="Dialogs/superguppySGT-menu.xml"/>
+<!--
+    <systems>
+      <electrical>
+        <path></path>
+      </electrical>
+    </systems> 
+-->
+  </sim>
+  
+  <!-- engines on, low pitch (parking) -->
+  <controls>
+    <engines>
+      <engine n="0">
+        <magnetos archive="y">3</magnetos>
+        <propeller-pitch>1.0</propeller-pitch>
+      </engine>
+      <engine n="1">
+        <magnetos archive="y">3</magnetos>
+        <propeller-pitch>1.0</propeller-pitch>
+      </engine>
+      <engine n="2">
+        <magnetos archive="y">3</magnetos>
+        <propeller-pitch>1.0</propeller-pitch>
+      </engine>
+      <engine n="3">
+        <magnetos archive="y">3</magnetos>
+        <propeller-pitch>1.0</propeller-pitch>
+      </engine>
+    </engines>
+    <electric>
+      <external-power>0</external-power>
+      <battery-switch>0</battery-switch>
+      <engine n="0">
+        <generator>0</generator>
+      </engine>
+      <engine n="1">
+        <generator>0</generator>
+      </engine>
+    </electric>
+    <gear>
+      <brake-parking>1.0</brake-parking>
+      <gear-down>true</gear-down>
+    </gear>
+    <lighting>
+      <instruments-norm>0.8</instruments-norm>
+      <landing-lights type="bool">0</landing-lights>
+      <beacon type="bool">0</beacon>
+      <strobe type="bool">0</strobe>
+      <nav-lights type="bool">0</nav-lights>
+      <cabin-lights type="bool">0</cabin-lights>
+      <wing-lights type="bool">0</wing-lights>
+      <taxi-light type="bool">0</taxi-light>
+    <instrument-lights type="bool">0</instrument-lights>
+    </lighting>
+    <anti-ice>
+      <prop-heat>0</prop-heat>
+      <pitot-heat>0</pitot-heat>
+    </anti-ice>
+    <cabin>
+      <fan type="bool">0</fan>
+      <heat type="bool">0</heat>
+    </cabin>
+  </controls>
+
+  <!-- above 700 RPM avoids the stop --> 
+
+  <input>
+    <keyboard include="Nasal/superguppySGT-keyboard.xml"/>
+  </input>
+  
+  <nasal>
+    <doors>
+      <file>Aircraft/superguppySGT/Nasal/doors.nas</file>
+    </doors>
+    <superguppySGT>
+      <file>Aircraft/superguppySGT/Nasal/Electrical.nas</file>
+      <file>Aircraft/superguppySGT/Nasal/liveries.nas</file>
+    </superguppySGT>
+  </nasal>
+  
+</PropertyList>
+
