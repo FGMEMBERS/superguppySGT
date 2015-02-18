@@ -1,4 +1,4 @@
-﻿NASA B-377SGT(Super guppy turbine)
+NASA B-377SGT(Super guppy turbine)
 -------------
 
 Since a few months ago I read in the  flightgear forums that some guys were looking for this kind of airplanes which I'm interested in too.So,I took the decision to make some researches on the web and to start building it.I do not pretend this 3d model built with Blender2.49 represents the perfect shapes of the original guppy,that's why I encourage
